@@ -17,6 +17,11 @@ class Dicts:
         def my_values(self):
             for i in self.d1:
                 print (self.d1[i])
+
+        def my_clear(self):
+            self.d1 = {}
+            print(self.d1)
+
         logging.info (f"Dicts function has  Executed successfully!")
 
     except Exception as e:
